@@ -255,7 +255,7 @@ header .icons svg {
   height: 100%;
   display: flex;
   flex-direction: column;
-  border: 1px solid #6B6D6B;
+  border: 1px solid #6b6d6b;
 }
 .cost-shoes .top-seller .img-box {
   width: 100%;
@@ -273,7 +273,7 @@ header .icons svg {
 .cost-shoes .top-seller .text-box {
   width: 100%;
   height: 20%;
-  border-top: 1px solid #6B6D6B;
+  border-top: 1px solid #6b6d6b;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -412,6 +412,7 @@ footer h6 {
   padding: 16px 25px;
   font-size: 17px;
   font-family: "Poppins", sans-serif;
+  position: relative;
 }
 
 .blogs {
@@ -426,7 +427,7 @@ footer h6 {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  border: 1px solid #6B6D6B;
+  border: 1px solid #6b6d6b;
 }
 .blogs .single-blog a {
   color: #000000;
@@ -435,7 +436,7 @@ footer h6 {
 }
 .blogs .single-blog p {
   font-size: 16px;
-  color: #6B6D6B;
+  color: #6b6d6b;
 }
 .blogs .single-blog h1 {
   font-size: 24px;
@@ -451,14 +452,14 @@ footer h6 {
   width: 100%;
   height: 45vh;
   display: flex;
-  border: 1px solid #6B6D6B;
+  border: 1px solid #6b6d6b;
   overflow: hidden;
 }
 .footer-three .footer-boxer-one {
   width: 100%;
   height: 100%;
   font-family: "Poppins", sans-serif;
-  border: 1px solid #6B6D6B;
+  border: 1px solid #6b6d6b;
   justify-content: center;
   display: flex;
   align-items: center;
@@ -467,7 +468,7 @@ footer h6 {
   width: 100%;
   height: 100%;
   font-family: "Poppins", sans-serif;
-  border: 1px solid #6B6D6B;
+  border: 1px solid #6b6d6b;
   display: flex;
   padding: 66px;
   justify-content: flex-start;
@@ -480,7 +481,7 @@ footer h6 {
 }
 .footer-three .footer-boxer-two p {
   font-size: 16px;
-  color: #6B6D6B;
+  color: #6b6d6b;
 }
 .footer-three .footer-boxer-two input {
   width: 240px;
@@ -491,8 +492,8 @@ footer h6 {
   padding: 12px 30px;
   box-sizing: border-box;
   outline: 0;
-  background-color: #F4F4F4;
-  border: 1px solid #F4F4F4;
+  background-color: #f4f4f4;
+  border: 1px solid #f4f4f4;
 }
 .footer-three .footer-boxer-two button {
   width: 136px;
@@ -500,8 +501,8 @@ footer h6 {
   font-size: 12px;
   line-height: 24px;
   font-weight: bold;
-  background-color: #F4F4F4;
-  border: 1px solid #F4F4F4;
+  background-color: #f4f4f4;
+  border: 1px solid #f4f4f4;
   border-radius: 5px;
   transform: translateX(-15px);
   letter-spacing: 2px;
@@ -510,7 +511,7 @@ footer h6 {
   width: 100%;
   height: 100%;
   font-family: "Poppins", sans-serif;
-  border: 1px solid #6B6D6B;
+  border: 1px solid #6b6d6b;
   justify-content: flex-start;
   display: flex;
   padding: 56px;
@@ -523,7 +524,7 @@ footer h6 {
 }
 .footer-three .footer-boxer-three p {
   font-size: 16px;
-  color: #6B6D6B;
+  color: #6b6d6b;
   line-height: 0.8;
 }
 
@@ -711,10 +712,5 @@ footer h6 {
   footer {
     height: auto;
     padding: 20px 20px;
-  }
-}
-@media (max-width: 1000px) {
-  .footer-three {
-    height: auto !important;
   }
 }/*# sourceMappingURL=style.css.map */

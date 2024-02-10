@@ -9,7 +9,6 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #eee;
   color: #111;
-  
 }
 
 :root {
@@ -165,7 +164,7 @@ header {
   height: 79vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../img/h1_bg1.jpg");
-    z-index: 1000;
+  z-index: 1000;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -224,12 +223,8 @@ header {
       align-items: center;
       font-weight: 900;
       flex-direction: column;
-
-      
     }
   }
-
-
 }
 
 .logos {
@@ -262,15 +257,13 @@ header {
 
   margin: 16px 0px;
 
-  
-
   .top-seller {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
 
-    border: 1px solid #6B6D6B;
+    border: 1px solid #6b6d6b;
 
     .img-box {
       width: 100%;
@@ -289,7 +282,7 @@ header {
       width: 100%;
       height: 20%;
 
-      border-top: 1px solid #6B6D6B;
+      border-top: 1px solid #6b6d6b;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -321,7 +314,6 @@ footer {
   justify-content: space-between;
   border-top: 1px solid black;
   margin-top: 10px;
- 
 
   h6 {
     text-decoration: underline;
@@ -343,14 +335,14 @@ footer {
     justify-content: space-between;
     border: 1px solid black;
 
-    img{
+    img {
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
   }
 
-  .box-serium{
+  .box-serium {
     width: 100%;
     height: 100%;
     justify-content: center;
@@ -358,61 +350,55 @@ footer {
     display: flex;
     border: 1px solid black;
     flex-direction: column;
-    
-    img{
+
+    img {
       width: 50%;
       height: auto;
     }
 
-    span{
+    span {
       font-size: 14px;
       font-weight: bold;
       font-family: "Poppins", sans-serif;
-     margin: 7px 0px;
-      
+      margin: 7px 0px;
     }
 
-    p{
+    p {
       font-size: 10px;
       font-family: "Poppins", sans-serif;
-     
     }
   }
 }
 
-.footer-two{
+.footer-two {
   width: 100%;
   height: 30vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
 
-  .footer-boxer{
+  .footer-boxer {
     width: 100%;
     height: 100%;
     display: flex;
-    svg{
+    svg {
       margin-right: 8px;
     }
 
-    span{
+    span {
       font-size: 16px;
       font-weight: bold;
       font-family: "Poppins", sans-serif;
     }
-p{
-  font-size: 16px;
-      
+    p {
+      font-size: 16px;
+
       font-family: "Poppins", sans-serif;
-}
-
+    }
   }
-
-
 }
 
-.topbutton{
-  
+.topbutton {
   position: fixed;
   right: 30px;
   bottom: 38px;
@@ -422,14 +408,12 @@ p{
   justify-content: center;
   align-items: center;
   z-index: 999;
-    text-align: center;
-    font-size: 20px;
-    border-radius: 50%;
-    outline: none;
-    border: 1px solid black;
-    background-color: #ffffff;
-
-
+  text-align: center;
+  font-size: 20px;
+  border-radius: 50%;
+  outline: none;
+  border: 1px solid black;
+  background-color: #ffffff;
 }
 .top-text {
   width: 100%;
@@ -452,12 +436,32 @@ p{
     padding: 16px 25px;
     font-size: 17px;
     font-family: "Poppins", sans-serif;
+    position: relative;
+    
+
+    // &::after {
+    //   left: 0;
+    //   bottom: 0;
+    //   content: "";
+    //   width: 0px;
+    //   height: 100%;
+    //   background-color: #49f9a4;
+    //   position: absolute;
+    //   transition: all .3s ease;
+    //   color: #fff;
+    // }
+    // &:hover {
+    //   &::after {
+    //     width: 100%;
+      
+    //   }
+    // }
   }
 }
-.blogs{
+.blogs {
   width: 100%;
   height: auto;
-  .single-blog{
+  .single-blog {
     width: 100%;
     height: 100%;
     padding: 30px;
@@ -465,149 +469,145 @@ p{
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    border: 1px solid  #6B6D6B;
-    a{
+    border: 1px solid #6b6d6b;
+    a {
       color: #000000;
       text-decoration: none;
       font-weight: bold;
     }
-    p{
+    p {
       font-size: 16px;
-      color:  #6B6D6B;
+      color: #6b6d6b;
     }
-    h1{
+    h1 {
       font-size: 24px;
       font-weight: bold;
       margin: 15px 0px;
     }
-    img{
+    img {
       width: 100%;
       height: 300px;
     }
   }
 }
 
-.footer-three{
+.footer-three {
   width: 100%;
   height: 45vh;
   display: flex;
-border: 1px solid  #6B6D6B; 
-overflow: hidden;
-  .footer-boxer-one{
+  border: 1px solid #6b6d6b;
+  overflow: hidden;
+  .footer-boxer-one {
     width: 100%;
     height: 100%;
     font-family: "Poppins", sans-serif;
-    border: 1px solid  #6B6D6B; 
+    border: 1px solid #6b6d6b;
     justify-content: center;
     display: flex;
     align-items: center;
   }
-  .footer-boxer-two{
+  .footer-boxer-two {
     width: 100%;
     height: 100%;
     font-family: "Poppins", sans-serif;
-    border: 1px solid  #6B6D6B; 
-   
+    border: 1px solid #6b6d6b;
+
     display: flex;
-    padding: 66px ;
+    padding: 66px;
     justify-content: flex-start;
     flex-direction: column;
-    h2{
+    h2 {
       font-size: 16px;
       font-weight: bold;
       margin-bottom: 25px;
     }
-    p{
+    p {
       font-size: 16px;
-      color: #6B6D6B;
+      color: #6b6d6b;
     }
-    input{
+    input {
       width: 240px;
       height: 51px;
       font-size: 16px;
-    font-weight: 400;
-    line-height: 1.625;
-    padding: 12px 30px;
-    box-sizing: border-box;
-    outline: 0;
-    background-color:#F4F4F4;
-    border: 1px solid #F4F4F4;
+      font-weight: 400;
+      line-height: 1.625;
+      padding: 12px 30px;
+      box-sizing: border-box;
+      outline: 0;
+      background-color: #f4f4f4;
+      border: 1px solid #f4f4f4;
     }
-    button{
+    button {
       width: 136px;
       height: 51px;
       font-size: 12px;
       line-height: 24px;
       font-weight: bold;
-      background-color:#F4F4F4;
-      border: 1px solid #F4F4F4;
+      background-color: #f4f4f4;
+      border: 1px solid #f4f4f4;
       border-radius: 5px;
       transform: translateX(-15px);
       letter-spacing: 2px;
-      
     }
   }
 
-  .footer-boxer-three{
+  .footer-boxer-three {
     width: 100%;
     height: 100%;
     font-family: "Poppins", sans-serif;
-    border: 1px solid  #6B6D6B; 
+    border: 1px solid #6b6d6b;
     justify-content: flex-start;
     display: flex;
     padding: 56px;
     flex-direction: column;
-   
-    h2{
+
+    h2 {
       font-size: 16px;
       font-weight: bold;
       margin-bottom: 25px;
     }
-    p{
+    p {
       font-size: 16px;
-      color: #6B6D6B;
+      color: #6b6d6b;
       line-height: 0.8;
     }
   }
-
 }
 
-@media (max-width: 576px) { 
-
-  header{
-    .header-logo{
+@media (max-width: 576px) {
+  header {
+    .header-logo {
       justify-content: center !important;
       align-items: center !important;
     }
   }
-  .pictures-word{
+  .pictures-word {
     height: auto;
   }
-  .cost-shoes{
+  .cost-shoes {
     height: auto;
-    .top-text{
+    .top-text {
       flex-direction: column !important;
       justify-content: center !important;
       align-items: center !important;
-      h1{
+      h1 {
         text-align: center !important;
       }
     }
   }
-  .live-clock{
+  .live-clock {
     height: auto;
     padding: 20px 20px;
-    .live-clock-text{
-      h1{
+    .live-clock-text {
+      h1 {
         font-size: 50px !important;
       }
-      h2{
+      h2 {
         font-size: 50px !important;
       }
 
-
-      .time-on{
-        .time-of{
+      .time-on {
+        .time-of {
           margin-right: 10px !important;
           width: 60px !important;
           height: auto;
@@ -617,68 +617,67 @@ overflow: hidden;
     }
   }
 
-  .object-fit{
+  .object-fit {
     height: auto !important;
   }
-  .logos{
+  .logos {
     height: auto;
     padding: 18px 18px;
-    .logos-png{
+    .logos-png {
       justify-content: center !important;
       align-items: center !important;
       width: 100% !important;
-      svg{
+      svg {
         width: 40%;
         height: auto;
       }
     }
-  } 
+  }
 
-  .footer-two{
+  .footer-two {
     height: auto;
   }
-  footer{
+  footer {
     height: auto;
     padding: 20px 20px;
   }
- }
+}
 
 // Medium devices (tablets, 768px and up)
-@media (max-width: 768px) { 
-  header{
-    .header-logo{
+@media (max-width: 768px) {
+  header {
+    .header-logo {
       justify-content: center !important;
       align-items: center !important;
     }
   }
-  .pictures-word{
+  .pictures-word {
     height: auto;
   }
-  .cost-shoes{
+  .cost-shoes {
     height: auto;
-    .top-text{
+    .top-text {
       flex-direction: column !important;
       justify-content: center !important;
       align-items: center !important;
-      h1{
+      h1 {
         text-align: center !important;
       }
     }
   }
-  .live-clock{
+  .live-clock {
     height: auto;
     padding: 20px 20px;
-    .live-clock-text{
-      h1{
+    .live-clock-text {
+      h1 {
         font-size: 50px !important;
       }
-      h2{
+      h2 {
         font-size: 50px !important;
       }
 
-
-      .time-on{
-        .time-of{
+      .time-on {
+        .time-of {
           margin-right: 10px !important;
           width: 60px !important;
           height: auto;
@@ -688,83 +687,79 @@ overflow: hidden;
     }
   }
 
-  .object-fit{
+  .object-fit {
     height: 60vh;
   }
-  .logos{
+  .logos {
     height: auto;
     padding: 18px 18px;
-    .logos-png{
+    .logos-png {
       justify-content: center !important;
       align-items: center !important;
       width: 100% !important;
-      svg{
+      svg {
         width: 40%;
         height: auto;
       }
     }
-  } 
+  }
 
-  .footer-two{
+  .footer-two {
     height: auto;
   }
-  footer{
+  footer {
     height: auto;
     padding: 20px 20px;
   }
- 
 }
 
 // Large devices (desktops, 992px and up)
 @media (max-width: 992px) {
-  .footer-three{
-height: auto !important;
-.footer-boxer-two{
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-.footer-boxer-three{
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
+  .footer-three {
+    height: auto !important;
+    .footer-boxer-two {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .footer-boxer-three {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
   }
-  header{
-    .header-logo{
+  header {
+    .header-logo {
       justify-content: center !important;
       align-items: center !important;
     }
   }
-  .pictures-word{
+  .pictures-word {
     height: auto;
   }
-  .cost-shoes{
-  
-    .top-text{
-      
-      h1{
+  .cost-shoes {
+    .top-text {
+      h1 {
         text-align: center !important;
       }
     }
   }
-  .live-clock{
+  .live-clock {
     height: auto;
     padding: 20px 20px;
-    .live-clock-text{
-      h1{
+    .live-clock-text {
+      h1 {
         font-size: 50px !important;
       }
-      h2{
+      h2 {
         font-size: 50px !important;
       }
 
-
-      .time-on{
-        .time-of{
+      .time-on {
+        .time-of {
           margin-right: 10px !important;
           width: 60px !important;
           height: auto;
@@ -774,41 +769,37 @@ height: auto !important;
     }
   }
 
-  .object-fit{
-  
+  .object-fit {
   }
-  .logos{
+  .logos {
     height: auto;
     padding: 18px 18px;
-    .logos-png{
+    .logos-png {
       justify-content: center !important;
       align-items: center !important;
       width: 100% !important;
-      svg{
+      svg {
         width: 90%;
         height: auto;
       }
     }
-  } 
+  }
 
-  .footer-two{
+  .footer-two {
     height: auto;
-  .footer-boxer{
-    justify-content: flex-start;
-    align-items: center;
+    .footer-boxer {
+      justify-content: flex-start;
+      align-items: center;
+    }
   }
-    
-  }
-  footer{
+  footer {
     height: auto;
     padding: 20px 20px;
   }
- 
- }
+}
+// // X-Large devices (large desktops, 1200px and up)
+// @media (max-width: 1000px) {
+//   .footer-three{
 
-// X-Large devices (large desktops, 1200px and up)
-@media (max-width: 1000px) { 
-  .footer-three{
-    
-    height: auto !important;}
- }
+//     height: auto !important;}
+//  }
